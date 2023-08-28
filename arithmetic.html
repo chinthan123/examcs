@@ -1,0 +1,39 @@
+<html>
+<head>
+<script type="text/javascript">
+function add()
+{
+var num1,num2,sum
+num1=number(document.getElementById("firstnum").value;
+num2=number(document.getElementById("secondnum").value;
+sum=num1+num2;
+document.getElementById("Result").value=sum;
+}
+function sub()
+{
+var num1,num2,sub
+num1=number(document.getElementById("firstnum").value;
+num2=number(document.getElementById("secondnum").value;
+sum=num1-num2;
+document.getElementById("Result").value=sub;
+}
+function reset()
+{
+document.getElementById("firstnum").value " ";
+document.getElementById("secondnum").value " ";
+}
+</script>
+</head>
+<body>
+<label for="num1">num1:</label>
+<input type="text" id="num1" ><br/>
+<label for="num2">num1:</label>
+<input type="text" id="num2" ><br/>
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button><br/>
+<label for="Result">Result</label>
+<input id="Result">
+</body>
+</html>
+
+
