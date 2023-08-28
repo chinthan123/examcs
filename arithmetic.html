@@ -17,6 +17,22 @@ num2=number(document.getElementById("secondnum").value;
 sum=num1-num2;
 document.getElementById("Result").value=sub;
 }
+function mul()
+{
+var num1,num2,mul
+num1=number(document.getElementById("firstnum").value;
+num2=number(document.getElementById("secondnum").value;
+sum=num1*num2;
+document.getElementById("Result").value=mul;
+}
+function div()
+{
+var num1,num2,div
+num1=number(document.getElementById("firstnum").value;
+num2=number(document.getElementById("secondnum").value;
+sum=num1-num2;
+document.getElementById("Result").value=div;
+}
 function reset()
 {
 document.getElementById("firstnum").value " ";
@@ -30,7 +46,9 @@ document.getElementById("secondnum").value " ";
 <label for="num2">num1:</label>
 <input type="text" id="num2" ><br/>
 <button onclick="add()">+</button>
-<button onclick="sub()">-</button><br/>
+<button onclick="sub()">-</button>
+<button onclick="mul()">*</button>
+<button onclick="div()">/</button><br/>
 <label for="Result">Result</label>
 <input id="Result">
 </body>
